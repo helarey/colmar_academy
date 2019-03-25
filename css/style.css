@@ -1,0 +1,24 @@
+
+/* Universal Styles */
+
+div {
+  border: 1px solid black;
+}
+
+/* Banner */
+
+
+.banner {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.navigation ul {
+  display: flex;
+}
