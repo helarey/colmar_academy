@@ -1,24 +1,207 @@
 
+/* Font Colours:
+
+Dark Blue - #4c5760
+Light Blue - #93a8ac
+Cream - #d7ceb2
+Light Brown - #a59e8c
+Dark Brown - #66635b
+
+*/
+
 /* Universal Styles */
 
-div {
-  border: 1px solid black;
+html {
+  font-size: 16px;
+}
+
+.open, h1, h2, h3, h4 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.gentium, p {
+  font-family: 'Gentium Basic', serif;
+}
+
+h1 {
+  color: #d7ceb2;
+}
+
+h4 {
+  color: #a59e8c;
 }
 
 /* Banner */
 
-
 .banner {
   display: flex;
   align-items: center;
+  height: 64px;
 }
 
 .logo {
   display: flex;
   align-items: center;
   flex-grow: 1;
+  padding-left: 24px;
+}
+
+.logo span {
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.regular {
+  color: #a59e8c;
 }
 
 .navigation ul {
   display: flex;
+  padding-right: 8px;
 }
+
+.navigation li {
+  padding-right: 16px;
+  font-size: 0.90rem;
+}
+
+/* First Section */
+
+.first-section {
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 24px;
+  background-color: #4c5760;
+}
+
+.image {
+  width: 60%;
+  padding-right: 24px;
+}
+
+.image img {
+  width: 100%;
+}
+
+.fs-information {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  width: 40%;
+}
+
+.fs-information h1 {
+  font-size: 2rem;
+  padding-left: 12px;
+}
+
+.fs-information h4 {
+  font-size: 1.25rem;
+  padding-left: 12px;
+
+}
+
+.fs-information h1, .fs-information h4 {
+  padding-bottom: 30px;
+  font-weight: 700;
+}
+
+.fs-information span {
+  background-color: #66635b;
+  color: #93a8ac;
+  padding: 8px 90px;
+  text-align: center;
+  font-weight: 700;
+  margin-left: 12px;
+
+}
+
+/* Second Section */
+
+.second-section {
+  display: flex;
+  padding-left: 24px;
+  background-color: #4c5760;
+  border-top: 2px solid #93a8ac;
+  }
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  padding-top: 32px;
+}
+
+.ss-information h1 {
+  padding-top: 32px;
+  padding-bottom: 24px;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.ss-information p {
+  padding-bottom: 32px;
+  color: #a59e8c;
+}
+
+.credit {
+  font-size: 0.95rem;
+}
+
+.right-side {
+  width: 40%;
+  padding-top: 32px;
+}
+
+.container {
+display: flex;
+align-items: center;
+padding-left: 16px;
+border-bottom: 2px solid #93a8ac;
+}
+
+.rs-image {
+  width: 30%;
+  height: auto;
+}
+
+.rs-image img {
+  width: 100%;
+}
+
+.orientation {
+  padding-bottom: 16px;
+}
+
+.campus, .guest {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.rs-text {
+  padding-left: 1rem;
+  line-height: 18px;
+}
+
+.rs-text h4 {
+  font-weight: bold;
+  color: #d7ceb2;
+}
+
+.rs-text p {
+  padding: 8px 0;
+  color: #a59e8c
+}
+
+.blue {
+  color: #93a8ac;
+  font-family: 'Gentium Basic', serif;
+}
+
+rgb(27, 4, 122)
