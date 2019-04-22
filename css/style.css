@@ -226,6 +226,11 @@ border-bottom: 2px solid #93a8ac;
 
 .third-section h4 {
   font-weight: bold;
+  color: #d7ceb2
+}
+
+.third-section p {
+  color: #a59e8c;
 }
 
 .text {
@@ -261,4 +266,77 @@ border-bottom: 2px solid #93a8ac;
 
 .second-three {
   margin-top: 32px;
+  padding-bottom: 32px;
+}
+
+/* Fourth Section */
+
+.fourth-section {
+  background-color: #4c5760;
+  border-top: 2px solid #93a8ac;
+}
+
+.fourth-section h1 {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.thesis-container {
+  display: flex;
+}
+
+.thesis-left {
+  width: 60%;
+  height: auto;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+.thesis-left video {
+  width: 100%;
+}
+
+.thesis-right {
+  width: 40%;
+  height: auto;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  border-top: solid 2px #93a8ac;
+}
+
+.item img {
+  width: 35%;
+  padding: 16px;
+  height: auto;
+  max-height: 130px;
+  max-width: 120px;
+}
+
+.thesis-text {
+  width: 65%;
+}
+
+.thesis-text h4, .video-text h4 {
+  padding-bottom: 8px;
+  font-weight: bold;
+  color: #d7ceb2;
+}
+
+.thesis-text p, .video-text p {
+  color: #a59e8c;
+}
+
+.video-text h4 {
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+
+.video-text p {
+  padding-bottom: 32px;
 }
