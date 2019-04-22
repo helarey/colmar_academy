@@ -71,7 +71,7 @@ h4 {
   display: none;
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 560px) {
   .logo {
     display: none;
   }
@@ -158,7 +158,7 @@ h4 {
 }
 
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 560px) {
   .first-section {
     flex-direction: column;
     justify-content: center;
@@ -170,8 +170,8 @@ h4 {
     width: auto;
     display: flex;
     align-items: left;
-    padding-right: 16px;
     margin-right: 0;
+    padding-left: 16px;
   }
 
   .fs-information h1 {
@@ -280,7 +280,7 @@ h4 {
   font-family: 'Gentium Basic', serif;
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 560px) {
   .second-section {
     padding-left: 16px;
     padding-right: 16px;
@@ -345,6 +345,7 @@ h4 {
 
 .box {
   width: 35%;
+  height: auto;
   background-color: #66635b
 }
 
@@ -360,7 +361,7 @@ h4 {
 .text {
   padding-top: 16px;
   padding-left: 16px;
-  padding-bottom: 16px;
+  padding-bottom: 0px;
   padding-right: 16px;
 }
 
@@ -379,7 +380,7 @@ h4 {
 .first-three img, .second-three img {
   max-width: 100%;
   height: auto;
-  min-height: 120px;
+  min-height: 100px;
   min-width: 120px;
 }
 
@@ -394,7 +395,7 @@ h4 {
   padding-bottom: 32px;
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 560px) {
   .third-section h1 {
     font-size: 1.8rem;
   }
@@ -515,7 +516,7 @@ h4 {
     padding-bottom: 32px;
   }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 560px) {
     .fourth-section h1 {
       font-size: 1.8rem;
       padding-top: 32px;
@@ -559,7 +560,7 @@ h4 {
     color: #93a8ac;
   }
 
-  @media only screen and (max-width: 540px) {
+  @media only screen and (max-width: 560px) {
     footer {
       padding-top: 16px;
       padding-bottom: 16px;
