@@ -204,4 +204,61 @@ border-bottom: 2px solid #93a8ac;
   font-family: 'Gentium Basic', serif;
 }
 
-rgb(27, 4, 122)
+/* Third Section */
+
+.third-section {
+  background-color: #4c5760;
+  border-top: 2px solid #93a8ac;
+}
+
+.third-section h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+
+.box {
+  width: 35%;
+  background-color: #66635b
+}
+
+.third-section h4 {
+  font-weight: bold;
+}
+
+.text {
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+}
+
+.title {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+
+.first-three, .second-three {
+  padding-left: 72px;
+  padding-right: 72px;
+  display: flex;
+  justify-content: center;
+}
+
+.first-three img, .second-three img {
+  max-width: 100%;
+  height: auto;
+  min-height: 170px;
+}
+
+.computer-art, .business {
+  margin-right: 32px;
+  margin-left: 32px;
+  padding-bottom: 24px;
+}
+
+.second-three {
+  margin-top: 32px;
+}
