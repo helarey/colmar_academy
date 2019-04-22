@@ -63,12 +63,53 @@ h4 {
 .navigation ul {
   display: flex;
   padding-right: 8px;
+  align-items: center;
 }
 
 .navigation li {
   padding-right: 16px;
   font-size: 0.90rem;
 }
+
+.navigation img {
+  display: none;
+}
+
+@media only screen and (max-width: 535px) {
+
+.logo {
+  display: none;
+}
+
+.logo img {
+  display: none;
+}
+
+.navigation {
+  width: 100%;
+}
+
+.navigation li {
+  display: none;
+}
+
+.navigation img {
+  display: flex;
+}
+
+.header nav ul {
+  margin: 0 2px;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  flex-grow: 0;
+}
+
+}
+
 
 /* First Section */
 
@@ -117,11 +158,53 @@ h4 {
 .fs-information span {
   background-color: #66635b;
   color: #93a8ac;
-  padding: 8px 100px;
+  padding: 10px 90px;
   text-align: center;
   font-weight: 700;
   margin-left: 12px;
-  max-width: 120px;
+  margin-right: 12px;
+  width: auto;
+
+}
+
+
+@media only screen and (max-width: 535px) {
+
+.first-section {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+
+}
+
+.fs-information {
+  width: auto;
+  display: flex;
+  align-items: center;
+  padding-right: 16px;
+  margin-right: 0;
+}
+
+.fs-information h1 {
+  font-size: 1.8rem;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.fs-information h4 {
+  font-size: 1rem;
+  padding-bottom: 24px;
+}
+
+.fs-information span {
+  margin-bottom: 32px;
+}
+
+.first-section .image {
+  width: 100%;
+  padding-right: 0;
+}
 
 }
 
@@ -168,6 +251,10 @@ padding-left: 16px;
 border-bottom: 2px solid #93a8ac;
 }
 
+.rs-image-mobile {
+  display: none;
+}
+
 .rs-image {
   width: 30%;
   height: auto;
@@ -206,7 +293,62 @@ border-bottom: 2px solid #93a8ac;
   font-family: 'Gentium Basic', serif;
 }
 
+@media only screen and (max-width: 535px) {
+
+.second-section {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 32px;
+    border-top: 2px solid #93a8ac;
+  }
+
+.left-side {
+  display: none;
+}
+
+.rs-image {
+  display: none;
+}
+
+.rs-image-mobile {
+  display: contents;
+}
+
+.rs-image-mobile img {
+  width: 100%;
+}
+
+.right-side {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  border-bottom: none;
+}
+
+.rs-text {
+  margin-left: 16px;
+  padding-top: 16px;
+  padding-bottom: 64px;
+  width: 100%;
+}
+
+
+
+}
+
+
 /* Third Section */
+
 
 .third-section {
   background-color: #4c5760;
