@@ -19,7 +19,7 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
-.gentium, p {
+.gentium, p, footer li {
   font-family: 'Gentium Basic', serif;
 }
 
@@ -31,9 +31,9 @@ h4 {
   color: #a59e8c;
 }
 
-/* Banner */
+/* Header */
 
-.banner {
+.header {
   display: flex;
   align-items: center;
   height: 64px;
@@ -87,6 +87,7 @@ h4 {
 
 .image img {
   width: 100%;
+  max-width: 700px;
 }
 
 .fs-information {
@@ -116,10 +117,11 @@ h4 {
 .fs-information span {
   background-color: #66635b;
   color: #93a8ac;
-  padding: 8px 90px;
+  padding: 8px 100px;
   text-align: center;
   font-weight: 700;
   margin-left: 12px;
+  max-width: 120px;
 
 }
 
@@ -307,7 +309,7 @@ border-bottom: 2px solid #93a8ac;
 .item {
   display: flex;
   align-items: center;
-  border-top: solid 2px #93a8ac;
+  border-bottom: solid 2px #93a8ac;
 }
 
 .item img {
@@ -316,6 +318,10 @@ border-bottom: 2px solid #93a8ac;
   height: auto;
   max-height: 130px;
   max-width: 120px;
+}
+
+.thesis-design {
+  border-top: solid 2px #93a8ac;
 }
 
 .thesis-text {
@@ -339,4 +345,27 @@ border-bottom: 2px solid #93a8ac;
 
 .video-text p {
   padding-bottom: 32px;
+}
+
+/* Footer */
+
+footer {
+  padding-top: 32px;
+  padding-left: 24px;
+  padding-bottom: 12px;
+  background-color: #4c5760;
+}
+
+footer, footer ul{
+  display: flex;
+}
+
+footer p {
+  flex-grow: 1;
+  color: #93a8ac;
+}
+
+footer li {
+  padding-right: 16px;
+  color: #93a8ac;
 }
